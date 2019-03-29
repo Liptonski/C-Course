@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/Laborki_cpp/Macierz.h
+ctime
+-
+string.h
+-
+
+/home/michal/CLionProjects/Laborki_cpp/Wektory.h
+iostream
+-
+cmath
+-
+
+/home/michal/CLionProjects/Laborki_cpp/main.cpp
+Wektory.h
+/home/michal/CLionProjects/Laborki_cpp/Wektory.h
+Macierz.h
+/home/michal/CLionProjects/Laborki_cpp/Macierz.h
+

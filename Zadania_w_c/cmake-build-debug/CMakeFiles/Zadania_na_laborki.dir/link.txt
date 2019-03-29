@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Zadania_na_laborki.dir/main.c.o  -o Zadania_na_laborki 

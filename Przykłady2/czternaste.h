@@ -1,0 +1,43 @@
+//
+// Created by michal on 26.04.18.
+//
+
+#ifndef ROBOCZY3_CZTERNASTE_H
+#define ROBOCZY3_CZTERNASTE_H
+
+#include <iostream>
+#include <string>
+using namespace std;
+class Pet {
+    string pname;
+public:
+    Pet(const string& petName) : pname(petName) {}
+    virtual string name() =0;
+    virtual string speak() =0;
+};
+
+string Pet::name() {return pname;}
+
+class Dog : public Pet {
+    string name;
+public:
+    Dog(const string& petName) : Pet(petName) {}
+    // New virtual function in the Dog class:
+    /*virtual string sit() const {
+        return Pet::name() + " sits";
+    }
+    string speak() const { // Override
+        return Pet::name() + " says 'Bark!'";
+    }*/
+};
+int main() {
+    //Pet* p[] = {new Pet("generic"),new Dog("bob")};
+    cout << "p[0]->speak() = "
+         << p[0]->speak() << endl;
+    cout << "p[1]->speak() = "
+         << p[1]->speak() << endl;
+//! cout << "p[1]->sit() = "
+//!      << p[1]->sit() << endl; // Illegal
+} ///:~
+
+#endif //ROBOCZY3_CZTERNASTE_H

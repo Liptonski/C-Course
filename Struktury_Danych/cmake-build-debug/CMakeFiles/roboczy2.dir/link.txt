@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/roboczy2.dir/main.cpp.o CMakeFiles/roboczy2.dir/nowa.cpp.o  -o roboczy2 

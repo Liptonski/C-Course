@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/roboczy2/Stos.h
+iostream
+-
+
+/home/michal/CLionProjects/roboczy2/Tablica_dyn.h
+iostream
+-
+cstring
+-
+
+/home/michal/CLionProjects/roboczy2/lista_dwu.h
+iostream
+-
+
+/home/michal/CLionProjects/roboczy2/lista_jedno.h
+iostream
+-
+
+/home/michal/CLionProjects/roboczy2/main.cpp
+iostream
+-
+lista_jedno.h
+/home/michal/CLionProjects/roboczy2/lista_jedno.h
+lista_dwu.h
+/home/michal/CLionProjects/roboczy2/lista_dwu.h
+Stos.h
+/home/michal/CLionProjects/roboczy2/Stos.h
+Tablica_dyn.h
+/home/michal/CLionProjects/roboczy2/Tablica_dyn.h
+
+/home/michal/CLionProjects/roboczy2/nowa.cpp
+nowa.h
+/home/michal/CLionProjects/roboczy2/nowa.h
+
+/home/michal/CLionProjects/roboczy2/nowa.h
+

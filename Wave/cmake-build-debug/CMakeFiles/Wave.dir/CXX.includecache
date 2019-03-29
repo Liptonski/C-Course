@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/Wave/Bmp.h
+stdint.h
+-
+iostream
+-
+
+/home/michal/CLionProjects/Wave/Draw.h
+Bmp.h
+/home/michal/CLionProjects/Wave/Bmp.h
+cassert
+-
+fstream
+-
+cstring
+-
+cmath
+-
+Objclass.h
+/home/michal/CLionProjects/Wave/Objclass.h
+
+/home/michal/CLionProjects/Wave/Objclass.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+
+/home/michal/CLionProjects/Wave/main.cpp
+iostream
+-
+Draw.h
+/home/michal/CLionProjects/Wave/Draw.h
+

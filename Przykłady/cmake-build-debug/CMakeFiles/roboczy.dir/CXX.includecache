@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/roboczy/czwarte.h
+iostream
+-
+
+/home/michal/CLionProjects/roboczy/dwajeden.h
+
+/home/michal/CLionProjects/roboczy/main.cpp
+czwarte.h
+/home/michal/CLionProjects/roboczy/czwarte.h
+siodme.h
+/home/michal/CLionProjects/roboczy/siodme.h
+trzynaste.h
+/home/michal/CLionProjects/roboczy/trzynaste.h
+pietnaste.h
+/home/michal/CLionProjects/roboczy/pietnaste.h
+osiemnaste.h
+/home/michal/CLionProjects/roboczy/osiemnaste.h
+dwajeden.h
+/home/michal/CLionProjects/roboczy/dwajeden.h
+
+/home/michal/CLionProjects/roboczy/osiemnaste.h
+fstream
+-
+
+/home/michal/CLionProjects/roboczy/pietnaste.h
+
+/home/michal/CLionProjects/roboczy/siodme.h
+iostream
+-
+string
+-
+
+/home/michal/CLionProjects/roboczy/trzynaste.h
+iostream
+-
+

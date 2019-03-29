@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Laborki_cpp.dir/main.cpp.o  -o Laborki_cpp 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Roboczy4.dir/main.cpp.o  -o Roboczy4 

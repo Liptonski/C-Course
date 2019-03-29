@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/projekt_BMP/Interpreter.h
+string
+-
+fstream
+-
+cstdio
+-
+iostream
+-
+vector
+-
+
+/home/michal/CLionProjects/projekt_BMP/Rysownik.h
+bmp.h
+/home/michal/CLionProjects/projekt_BMP/bmp.h
+cassert
+-
+fstream
+-
+cstring
+-
+cmath
+-
+Interpreter.h
+/home/michal/CLionProjects/projekt_BMP/Interpreter.h
+
+/home/michal/CLionProjects/projekt_BMP/bmp.h
+stdint.h
+-
+iostream
+-
+
+/home/michal/CLionProjects/projekt_BMP/main.cpp
+Rysownik.h
+/home/michal/CLionProjects/projekt_BMP/Rysownik.h
+
